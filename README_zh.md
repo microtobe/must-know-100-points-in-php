@@ -71,6 +71,7 @@ is_long()==is_int()
 * array_filter() 与 array_map() 与 array_walk()
 * list 的用法
 * ord() 的使用
+* gmstrftime()的使用
 * 数据库事务四种隔离级别
 ```
 读未提交（read-uncommitted）所有事务都可以看到其他未提交事务的执行结果。很少用于实际应用，因为它的性能也不比其他级别好多少。会产生脏读，不可重复读以及幻读
